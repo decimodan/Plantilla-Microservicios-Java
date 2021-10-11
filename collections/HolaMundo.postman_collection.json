@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "8f1d3dde-ca7e-4da7-acf7-571ef19a85c3",
+		"name": "HolaMundo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "HolaMundo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/holamundo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"holamundo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HolaMundo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Daniel\",\r\n    \"date\" : \"2020-03-31T10:11:34.196+0000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/holamundo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"holamundo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
